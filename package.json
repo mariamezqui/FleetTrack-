@@ -1,0 +1,18 @@
+{
+  "name": "fleettrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "node crud-envios.js",
+    "dev": "nodemon crud-envios.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "mongoose": "^9.12.1"
+  }
+}
